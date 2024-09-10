@@ -152,7 +152,7 @@ import {HousingLocation} from '../housingLocation';
     </section>
     <section class="results">
       <app-housing-location [housingLocation]="housingLocation">
-        <p> haha {{housingLocation.city}}</p>
+        
       </app-housing-location>
     </section>
   `,

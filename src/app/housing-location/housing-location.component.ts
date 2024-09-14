@@ -54,7 +54,8 @@ import { RouterModule } from "@angular/router";
       <p class="listing-location">
         {{ housingLocation.city }}, {{ housingLocation.state }}
       </p>
-      <a routerLink="details">learn more...</a>
+      <!-- property bindings  -->
+      <a [routerLink]="['/details', housingLocation.id]">learn more...</a>
       <!-- router link added -->
     </section>
   `,
